@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dont know</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/menu/Logo.png" class="image"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Подборки</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                По жанру
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#actions">Боевики</a></li>
+                <li><a class="dropdown-item" href="#military">Военные</a></li>
+                <li><a class="dropdown-item" href="#detective">Детективы</a></li>
+                <li><a class="dropdown-item" href="#kids">Детские</a></li>
+                <li><a class="dropdown-item" href="#drama">Драмы</a></li>
+                <li><a class="dropdown-item" href="#comedia">Комедии</a></li>
+                <li><a class="dropdown-item" href="#crime">Криминалы</a></li>
+                <li><a class="dropdown-item" href="#melodrama">Мелодрамы</a></li>
+                <li><a class="dropdown-item" href="#thriller">Триллеры</a></li>
+                <li><a class="dropdown-item" href="#horror">Ужасы</a></li>
+                <li><a class="dropdown-item" href="#fantastic">Фантастика</a></li>
+                <li><a class="dropdown-item" href="#fantasy">Фэнтези</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Фильмы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Сериалы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Мультфильмы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Аниме</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Актеры</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <div class="hui">
+                  <input class="form-control me-2 krug" type="text" placeholder="Поиск по сайту">
+                  <button class="btn button" type="button">
+                      <img src="images/menu/icons8-поиск-50 (1).png" alt="">
+                  </button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section" style="background: url(images/back/back.png); background-size: 1920px 3335px;">
+    <div class="container-fluid">
+      <div class="row down"><!--row for evetything-->
+        <div class="col-lg-9"><!--left side-->
+          <!--actions-->
+          <div class="row">
+            <div class="col-md-12 actions">
+              <div class="actions_img" style="background: url(images/movies/1.jpg); background-size: 1343px 529px;" id="actions">
+                <div class="text">
+                  <div class="text1">Боевики</div>
+                  <div class="text2">Подборок: <span class="blue">453</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        
+          <!--military and detective-->
+          <div class="row">
+            <!--military-->
+            <div class="col-lg-6 military col-md-8">
+              <div class="military_img" style="background: url(images/movies/2.jpg); background-size: 689px 478px;" id="military">
+                <div class="texttwo">
+                  <div class="text1">Военные</div>
+                  <div class="text2">Подборок: <span class="blue">358</span></div>
+                </div>
+              </div>
+            </div>
+            <!--detective-->
+            <div class="col-lg-6 detective col-md-8">
+              <div class="detective_img" style="background: url(images/movies/3.jpg); background-size: 689px 478px;" id="detective">
+                <div class="texttwo">
+                  <div class="text1">Детективы</div>
+                  <div class="text2">Подборок: <span class="blue">342</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--other movies-->
+          <!--kids, drama and comedia-->
+          <div class="row">
+            <div class="col-md-4 kids">
+              <div class="kids_img" style="background: url(images/movies/4.jpg); background-size: 460px 387px;" id="kids">
+                <div class="textthree">
+                  <div class="text1a">Детские</div>
+                  <div class="text2a">Подборок: <span class="blue">298</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 drama">
+              <div class="drama_img" style="background: url(images/movies/5.jpg); background-size: 460px 387px;" id="drama">
+                <div class="textthree">
+                  <div class="text1a">Драма</div>
+                  <div class="text2a">Подборок: <span class="blue">286</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 comedia">
+              <div class="comedia_img" style="background: url(images/movies/6.jpg); background-size: 460px 387px;" id="comedia">
+                <div class="textthree">
+                  <div class="text1a">Комедии</div>
+                  <div class="text2a">Подборок: <span class="blue">265</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!--crime, melodrama and thriller-->
+            <div class="col-md-4 crime">
+              <div class="crime_img" style="background: url(images/movies/7.jpg); background-size: 460px 387px;" id="crime">
+                <div class="textthree">
+                  <div class="text1a">Криминалы</div>
+                  <div class="text2a">Подборок: <span class="blue">198</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 melodrama">
+              <div class="melodrama_img" style="background: url(images/movies/8.jpg); background-size: 460px 387px;" id="melodrama">
+                <div class="textthree">
+                  <div class="text1a">Мелодрамы</div>
+                  <div class="text2a">Подборок: <span class="blue">165</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 thriller">
+              <div class="thriller_img" style="background: url(images/movies/9.jpg); background-size: 460px 387px;" id="thriller">
+                <div class="textthree">
+                  <div class="text1a">Триллеры</div>
+                  <div class="text2a">Подборок: <span class="blue">147</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <!--horror, fantastic and fantasy-->
+            <div class="col-md-4 horror">
+              <div class="horror_img" style="background: url(images/movies/10.jpg); background-size: 460px 387px;" id="horror">
+                <div class="textthree">
+                  <div class="text1a">Ужасы</div>
+                  <div class="text2a">Подборок: <span class="blue">138</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 fantastic">
+              <div class="fantastic_img" style="background: url(images/movies/11.jpg); background-size: 460px 387px;" id="fantastic">
+                <div class="textthree">
+                  <div class="text1a">Фантастика</div>
+                  <div class="text2a">Подборок: <span class="blue">124</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 fantasy">
+              <div class="fantasy_img" style="background: url(images/movies/12.jpg); background-size: 460px 387px;" id="fantasy">
+                <div class="textthree">
+                  <div class="text1a">Фэнтези</div>
+                  <div class="text2a">Подборок: <span class="blue">112</span></div>
+                </div>
+              </div>
+            </div>
+          </div><!--other movies-->
+          <!--text after movies-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="textend">
+                <p>MovieDB.ru - онлайн фильмы в хорошем HD качестве бесплатно и без регистрации.
+                  <br><br>
+                  На нашем кинопортале вы можете смотреть онлайн лучшие фильмы в HD качестве, причем абсолютно бесплатно и без регистрации! Располагайтесь поудобнее, сейчас мы проведем экскурсию по нашему онлайн кинотеатру. Прежде всего, давайте выясним: чего вы желаете, заглянув к нам? Естественно, просмотреть нужный фильм. На нашем сайте представлена огромная коллекция самых лучших фильмов зарубежного и отечественного кинематографа, c которыми можно ознакомиться в любое удобное для вас время, причем абсолютно бесплатно. Еще несколько лет тому назад было немыслимо представить себе, что наступят времена, когда любой фильм можно будет смотреть онлайн. Но прогресс не стоит на месте! И сейчас вам можно не посещать кинотеатры, не тратиться на покупку дорогостоящих DVD-дисков, а просто зайти на наш сайт, выбрать заинтересовавший вас фильм и смотреть его прямо на сайте. Даже без регистрации! Наслаждаться просмотром можно на уютном диване дома или же в удобном кресле на работе.
+                  <br><br>
+                  На сайте baskino.club вы можете просматривать фильмы в лучшем HD качестве самых различных жанров. При этом наша коллекция постоянно пополняется как новинками, так и уже всем полюбившимися фильмами. Даже самый требовательный посетитель не сможет уйти от нас, не выбрав для себя что-то интересненькое. Кроме этого, если вам захочется просмотреть фильм с участием вашего любимого актера, вы можете воспользоваться меню «Все актеры». В нем в алфавитном порядке расположены отечественные и зарубежные актеры с указанием фильмов, в которых они принимали участие.
+                  <br><br>
+                  Мы несем ответственность за то, чтобы у вас не возникало технических проблем при просмотре онлайн фильма. Но если все же что-то произошло, обратитесь в раздел «Помощь». В нем содержатся ответы на все возможные проблемы и пути их решения. Вы можете оставлять комментарии и рецензии к фильмам, а так же делиться любимым кино в социальных сетях.
+                  <br><br>
+                  Большой сюрприз ожидает владельцев гаджетов на iOS (iPhone, iPod и iPad) и Android. Специально для них любой фильм можно смотреть онлайн при помощи «умного» проигрывателя, который сам определяет оптимальный видео режим для вашего устройства. Он подстраивается под вашу платформу и без проблем отображает видео для iOS при помощи HTML5 плеера и видео потока H.264/MPEG-4. Для пользователей обычных компьютеров, «умный» проигрыватель превращается в широко распространенный flash-плеер.
+                  <br><br>
+                  Надеемся, что сумели вас заинтересовать и дать ответы на все возможные вопросы. Так что выбирайте хороший фильм, устраивайтесь поудобнее и наслаждайтесь просмотром онлайн в хорошем HD качестве бесплатно и без регистрации!</p>
+              </div>
+            </div>
+          </div>
+        </div><!--left side-->
+        <div class="col-md-3">
+          <!--row for sliderbar1-->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="sliderbar1">
+                <div class="sliderbar1_title">
+                  <h5 class="sb1_title">Новые коллекции</h5>
+                </div>
+                <div class="sliderbar1_body">
+                  <div class="sliderbar1_item">
+                    <a href="#" class="sb1_link">
+                      <img class="sb1_img" src="images/сайдбар 1/1.png" alt="">
+                    </a>
+                    <div class="sb1_text">
+                      <img src="images/сайдбар 1/icontime.png" alt="">
+                      <span class="sb1_week">2 week ago</span>
+                      <p class="sb1_name">Без жалости</p>
+                    </div>
+                  </div>
+                  <div class="sliderbar1_item">
+                    <a href="#" class="sb1_link">
+                      <img class="sb1_img" src="images/сайдбар 1/2.png" alt="">
+                    </a>
+                    <div class="sb1_text">
+                      <img src="images/сайдбар 1/icontime.png" alt="">
+                      <span class="sb1_week">2 week ago</span>
+                      <p class="sb1_name">Спутник</p>
+                    </div>
+                  </div>
+                  <div class="sliderbar1_item">
+                    <a href="#" class="sb1_link">
+                      <img class="sb1_img" src="images/сайдбар 1/3.png" alt="">
+                    </a>
+                    <div class="sb1_text">
+                      <img src="images/сайдбар 1/icontime.png" alt="">
+                      <span class="sb1_week">2 week ago</span>
+                      <p class="sb1_name">Кейт</p>
+                    </div>
+                  </div>
+                  <div class="sliderbar1_item">
+                    <a href="#" class="sb1_link">
+                      <img class="sb1_img" src="images/сайдбар 1/4.png" alt="">
+                    </a>
+                    <div class="sb1_text">
+                      <img src="images/сайдбар 1/icontime.png" alt="">
+                      <span class="sb1_week">2 week ago</span>
+                      <p class="sb1_name">Чёрная вдова</p>
+                    </div>
+                  </div>
+                  <div class="sliderbar1_item">
+                    <a href="#" class="sb1_link">
+                      <img class="sb1_img" src="images/сайдбар 1/5.png" alt="">
+                    </a>
+                    <div class="sb1_text">
+                      <img src="images/сайдбар 1/icontime.png" alt="">
+                      <span class="sb1_week">2 week ago</span>
+                      <p class="sb1_name">2 ствола</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--sliderbar1-->
+            </div>
+          </div>
+          <div class="row my-5">
+            <!--row for sliderbar2-->
+            <div class="col-lg-12">
+              <div class="sliderbar1">
+                <div class="sliderbar1_title">
+                  <h5 class="sb1_title">Популярные коллекции</h5>
+                </div>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                  <!-- Indicators/dots -->
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  </div>
+
+                  <!-- The slideshow/carousel -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/sidebar2/slide1.jpg" class="d-block w-100">
+                      <!--
+                      <div class="carousel_info">
+                        <h5 class="sb1_title">Лучшие сериалы 2015-2021 годов</h5>
+                        <a href="#" class="btn button">Смотреть</a>
+                      </div>
+                      -->
+                      <div class="carousel-caption plus">
+                        <h3 class="sb2_title">Лучшие сериалы 2015-2021 годов</h3>
+                        <a href="#" class="btn buttn">Смотреть</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/sidebar2/slide2.jpg" class="d-block w-100">
+                      <div class="carousel-caption plus">
+                        <h3 class="sb2_title">Лучшие сериалы 2015-2021 годов</h3>
+                        <a href="#" class="btn buttn">Смотреть</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls/icons -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--right side-->
+      </div><!--row for evetything-->
+    </div><!--conteiner-fluid-->
+    
+  </section>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="logo_footer">
+            <img src="images/menu/Logofooter.png" class="footer_images">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="footer_menu">
+            <span></span>
+            <h4>Меню</h4>
+            <ul class="nav flex-column footer_nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Подборки</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    По жанру
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#actions">Боевики</a></li>
+                    <li><a class="dropdown-item" href="#military">Военные</a></li>
+                    <li><a class="dropdown-item" href="#detective">Детективы</a></li>
+                    <li><a class="dropdown-item" href="#kids">Детские</a></li>
+                    <li><a class="dropdown-item" href="#drama">Драмы</a></li>
+                    <li><a class="dropdown-item" href="#comedia">Комедии</a></li>
+                    <li><a class="dropdown-item" href="#crime">Криминалы</a></li>
+                    <li><a class="dropdown-item" href="#melodrama">Мелодрамы</a></li>
+                    <li><a class="dropdown-item" href="#thriller">Триллеры</a></li>
+                    <li><a class="dropdown-item" href="#horror">Ужасы</a></li>
+                    <li><a class="dropdown-item" href="#fantastic">Фантастика</a></li>
+                    <li><a class="dropdown-item" href="#fantasy">Фэнтези</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Сериалы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Мультфильмы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Аниме</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Актеры</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="footer_text">
+            <h4>О нас</h4>
+            <p>Зная всё о кино, хочется поделиться этим с другими. Делитесь фильмами, трейлерами, персонами и новостями в социальных сетях, присваивайте рейтинги фильмам и обсуждайте их с друзьями и подписчиками!
+              <br> <br>
+            Интересные фильмы, ближайшие кинотеатры и любимых актеров можно добавлять в «Избранное». Система покажет все связанные с ними новости и новые трейлеры, подскажет, когда можно купить билет в кино на интересующую премьеру. Присоединяйтесь!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-2">
+        <div class="footer_down">
+          <div class="col-md-5">
+            <p class="footer_copyright">
+              &copy;Все права защищены MovieDB.ru 2021 
+            </p>
+          </div> 
+          <div class="col-md-2 dop">
+            <div class="footer_icon">
+              <a class="footer_link" href="#">
+                <img src="images/footer down/facebook.png" class="footer_fcbk">
+              </a>
+            </div>
+            <div class="footer_icon">
+              <a class="footer_link" href="#">
+                <img src="images/footer down/instagram.png" class="footer_fcbk">
+              </a>
+            </div>
+            <div class="footer_icon">
+              <a class="footer_link" href="#">
+                <img src="images/footer down/vk.png" class="footer_fcbk">
+              </a>
+            </div>
+          </div> 
+          <div class="col-md-5">
+            <p class="footer_con"><a href="#">Политика конфиденциальности</a></p>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </footer>
+    
+    
+</body>
+</html>
